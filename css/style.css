@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+body {
+	background-color: #6d695c;
+	background-image: url("../imgs/upfeathers.png");
+}
+
+.ss-form {
+	margin-top: 10px;
+	padding-bottom: 25px;
+	font-size: 18px;
+	background-color: #FFF5BB;
+	max-width: 940px;
+	margin: auto;
+	border-style: outset;
+	border-width: 5px;
+	border-color: #E0B690;
+}
+
+header {
+	width: 100%;
+	background: #fff;
+	text-align: center;
+}
+
+header img {
+	width: 50%;
+	min-width: 380px;
+	padding: 45px 0px 35px 0;
+
+}
+
+.form-wrapper {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+h1 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	font-size: 22px;
+}
+
+.ss-q-title {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 22px;
+}
+
+ol {
+	padding: 10px 25px 10px 25px;
+	line-height: 150%;
+}
+
+ol li {
+	margin-bottom: 15px;
+}
+
+li {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+ul {
+	margin-bottom: 50px;
+}
+
+ul li {
+	list-style-type: none;
+	margin-bottom: 15px;
+}
+
+ul li img {
+	width: 100%;
+}
+
+.ss-q-short {
+	width: 100%;
+	height: 30px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 3px;
+}
+
+#ss-submit {
+	display: block;
+	position: relative;
+	margin: auto;
+	width: 300px;
+	height: 50px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #fff;
+	background-color: #E8624F;
+	border-style: none;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+#ss-submit:hover {
+	background-color: #84372F;
+	color: #fff;
+
+}
+
+@media screen and (max-width: 960px) {
+
+	#ss-submit, ul li {
+		width: 45%;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	#ss-submit, ul li {
+		width: 100%;
+	}
+
+	.form-wrapper {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+}
+
+

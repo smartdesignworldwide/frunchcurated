@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Didot';
+    src: url(DidotWebfonts/Didot.eot?#iefix) format("embedded-opentype"),url(DidotWebfonts/Didot.woff) format("woff"),url(DidotWebfonts/Didot.ttf) format("truetype"),url(DidotWebfonts/Didot.svg#Didot) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Didot-Italic';
+    src: url(DidotWebfonts/Didot-Italic.eot?#iefix) format("embedded-opentype"),url(DidotWebfonts/Didot-Italic.woff) format("woff"),url(DidotWebfonts/Didot-Italic.ttf) format("truetype"),url(DidotWebfonts/Didot-Italic.svg#Didot-Italic) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Didot-Bold';
+    src: url(DidotWebfonts/Didot-Bold.eot?#iefix) format("embedded-opentype"),url(DidotWebfonts/Didot-Bold.woff) format("woff"),url(DidotWebfonts/Didot-Bold.ttf) format("truetype"),url(DidotWebfonts/Didot-Bold.svg#Didot-Bold) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
